@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 SEED = 42
 
 # Load the dataset
-data = pd.read_csv("diabetes.csv")
+data = pd.read_csv(r"C:\Users\Kuro7\Documents\Medical diabities prediction\diabetes.csv")
 
 # Display first few rows of the dataset
 print(data.head())
